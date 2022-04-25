@@ -1,0 +1,85 @@
+.header-logo a{
+    color: #3333;
+    font-size: 26px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+}
+.header{
+    height: 50px;
+    width: 100%;
+    padding: 7px;
+}
+.header-logo{
+    height: 50px;
+    width: 50px;
+}
+button.btn.btn-gray{
+    background-color: rgba(240, 234, 234, 0.829);
+}
+.col-3 button{
+    margin-right: 10px;
+}
+.product-loop {
+    position: relative;
+    padding: 0;
+}
+.product-loop.product-inner {
+    background: #fff;
+    border: 1px solid var(--shop-color-border);
+    margin-left: -1px;
+    margin-bottom: -1px;
+}
+.product-loop.proloop-image {
+    position: relative;
+    overflow: hidden;
+    padding: 10px;
+}
+.product-loop.proloop-image.pro-sale {
+    
+    background: red;
+    letter-spacing: 0.5px;
+}
+.jumbotron{
+    background-color: rgba(240, 248, 255, 0.904);
+}
+.footer-bottom{
+    background-color:#fff;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 500;
+  }
+  .search_result{ 
+     background-color: #fff;
+      width: 100%;
+      left: 23%;
+      border-radius: 3px;
+      box-shadow: 0 0 8px 0 rgb(0 0 0 / 15%);
+      max-height: 400px;
+      position: absolute;
+      z-index: 2;
+      overflow: auto;
+      display: none;
+}
+.card.card-item{
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.alert{
+    position: absolute;
+    z-index: 2;
+    top: -50px;
+    animation-name: thongbao;
+    animation-duration: 8s;
+}
+@keyframes thongbao {
+    from {top:0px;}
+    to {top:-50px;}
+  }
